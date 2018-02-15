@@ -2,12 +2,15 @@
 \usepackage{listings}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{here}
+\usepackage{ascmac}
+
 \begin{document}
 \begin{titlepage}
 \title{\LaTeX の使い方～基本編～}
 \author{
 \\
-情報理工学部2回生　伊藤聡子　\\
+情報理工学部2回生　伊藤聡子　
+\\
 }
 \date{2018年2月5日}
 \maketitle
@@ -21,21 +24,91 @@
 \section{概要}
 \LaTeX とはなんぞや？　そう思う人はかなりいると思います。\\
 \\
-　\LaTeX （ラテック、ラテフ）とは、レスリー・ランポートによって開発されたテキストベースの組版処理システムである。電子組版ソフトウェア TeX にマクロパッケージを組み込むことによって構築されており、単体の \TeX に比べて、より手軽に組版を行うことができるようになっている。 と表記できない場合は“\LaTeX ”と表記する。
-　なお、\LaTeX を基にアスキーが日本語処理に対応させたものとして日本語 \LaTeX が、さらに縦組み処理にも対応させたものとして pLaTeX がある。
+  \LaTeX （ラテック、ラテフ）とは、レスリー・ランポートによって開発されたテキストベースの組版処理システムである。電子組版ソフトウェア TeX にマクロパッケージを組み込むことによって構築されており、単体の \TeX に比べて、より手軽に組版を行うことができるようになっている。 と表記できない場合は“\LaTeX ”と表記する。\\
+　なお、\LaTeX を基にアスキーが日本語処理に対応させたものとして日本語 \LaTeX が、さらに縦組み処理にも対応させたものとして pLaTeX がある。\\
 　専門分野にもよるが、学術機関においては標準的な論文執筆ツールとして扱われている。
 \begin{flushright}
  by.wikipedia
 \end{flushright}
-　簡単に言うと、上手い感じに文章や図を配置してPDFなどに出力できるソフトのことです。
+　簡単に言うと、上手い感じに文章や図を配置してPDFなどに出力できるソフトのことです。\\
+　この冊子では、\LaTeX の中でも基本的な、書くのに必要最小限のことだけを紹介していきます。
 
 \section{文章構造について}
+
 \subsection{表紙のつくり方}
+\LaTeX は文章の中でも主に、レポートや論文を書くときに使われます。そんな時、いきなり本文から始めるなんてことはありえません。初めにタイトルや著者名、日付が書かれた表紙がおかれることがほとんどです。まずは、そんな表紙のつくり方から始めたいと思います。\\
+
+  \begin{table}[H]
+    \begin{center}
+      \caption{表紙を作るときに使うコマンド}
+      \begin{tabular}{|c||c|} \hline
+        用途 & コマンド  \\ \hline \hline
+	   タイトル & \verb#\title# \\ \hline
+        著者名 & \verb#\author# \\ \hline
+        日付 & \verb#\date# \\ \hline
+        タイトルを出力 & \verb#\maketitle# \\ \hline
+      \end{tabular}
+    \end{center}
+  \end{table}
+
+　表紙を作るとき、主に以上のコマンドを使用します。\\
+　実際に書いてみると、以下のようになります。\\
+
+\begin{screen}
+\begin{verbatim}
+\documentclass[11pt,a4j]{jarticle}
+
+\begin{document}
+\title{タイトル}
+\author{著者名}
+\date{日付}
+
+\maketitle
+
+以下、文章を書く
+
+\end{document}
+\end{verbatim}
+\end{screen}
+
+
 \subsection{項目のつくり方}
+
 \subsection{箇条書きのつくり方}
+
 \subsection{ページ番号のつくり方}
-\section{フォントについて}
-\section{数式について}
+
+
 \section{図について}
+
+
 \section{特殊文字・記号について}
+
+  \begin{table}[H]
+    \begin{center}
+      \caption{特殊文字・記号を表示させるコマンド}
+      \begin{tabular}{|c||c|} \hline
+        用途 & コマンド  \\ \hline \hline
+	   タイトル & \verb#\title# \\ \hline
+        著者名 & \verb#\author# \\ \hline
+        日付 & \verb#\date# \\ \hline
+        タイトルを出力 & \verb#\maketitle# \\ \hline
+      \end{tabular}
+    \end{center}
+  \end{table}
+
+
+\section{おまけ}
+
+\subsection{目次を作る}
+\verb#\tableofcontents#
+
+\subsection{コメントアウトする}
+
+\subsection{指定した範囲を枠で囲む}
+  \verb#\usepackage{ascmac}#
+
+\subsection{プログラムを表示させる}
+  \verb#\usepackage{listings}#
+
 \end{document}
