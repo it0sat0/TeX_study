@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.2-170924-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.12.25)  18 FEB 2018 18:56
+This is e-pTeX, Version 3.14159265-p3.7.2-170924-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.12.25)  12 MAR 2018 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -129,21 +129,21 @@ LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 \c@lstlisting=\count102
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 19.
+(Font)              <17.28> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <6> on input line 20.
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
  (./study.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
@@ -159,17 +159,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1] [2]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 53.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 53.
- [3] [4] [5] [6] [7] [8] (./study.aux) ) 
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
+ [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 132.
+
+
+(c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+ [5] [6] [7] [8] [9]
+[10] (./study.aux) ) 
 Here is how much of TeX's memory you used:
- 2008 strings out of 493629
- 27335 string characters out of 6150198
+ 2026 strings out of 493629
+ 27663 string characters out of 6150198
  95765 words of memory out of 5000000
- 5624 multiletter control sequences out of 15000+600000
+ 5638 multiletter control sequences out of 15000+600000
  14582 words of font info for 57 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  26i,9n,32p,434b,947s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on study.dvi (9 pages, 15968 bytes).
+Output written on study.dvi (11 pages, 21208 bytes).
